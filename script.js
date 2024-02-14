@@ -74,7 +74,8 @@ function updateIcon(weatherData) {
             'thunderstorm': 'images/thunderstorm-icon.png' ,
             'snow': 'images/snow-icon.png',
             'mist': 'images/mist-icon.png',
-            'light rain': 'images/normal-rain-icon.png'
+            'light rain': 'images/normal-rain-icon.png',
+            'moderate rain': 'images/normal-rain-icon.png'
         }
 
         weatherDescription = weatherData.description;
