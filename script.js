@@ -39,7 +39,7 @@ function unixToHours(unixTime) {
 
 
 function getCoordinates(searchValue) {
-    return fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${searchValue},&limit=5&appid=${APIKey}`)
+    return fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${searchValue},&limit=5&appid=${APIKey}`)
         .then(res => res.json())
         .then(data => {
             return data
