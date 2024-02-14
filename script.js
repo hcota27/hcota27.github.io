@@ -105,6 +105,7 @@ function addClickTolistItem() {
         const weatherData = await getWeatherData(coordinateData);
         updatePage(weatherData);
         suggestionList.innerHTML = '';
+        searchBar.value='';
         });
     };
 };
@@ -115,6 +116,7 @@ searchButton.addEventListener('click', async () => {
     const weatherData = await getWeatherData(coordinateData);
     updatePage(weatherData);
     suggestionList.innerHTML = '';
+    searchValue ='';
  });
 
 
